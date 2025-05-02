@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 25px;
+  position: relative;
+}
+
+main {
+  flex-basis: 1440px;
+  position: relative;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.ribbon {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00FF2F;
+  color: #000000;
+  position: fixed;
+  width: 442px;
+  text-align: center;
+  padding: 34px 0;
+  right: -120px;
+  top: 60px;
+  transform: rotate(45deg)
+}
